@@ -1,0 +1,74 @@
+Here we can learn about branch in git
+
+
+create one branch in git
+
+named as branch_1
+
+now come to vs code terminal
+
+type
+git branch 
+
+here it shows some branch name
+
+first time if we type mean it shows only main
+
+bcoz we have to pull
+then only whatever changes done in git platform that will be visible here
+
+so type
+git pull
+
+now type
+git branch -a
+
+now we can see our own created branch in this terminal
+
+currently am in main branch
+if want to change the branch 
+
+type
+git  checkout branch_1
+
+this command will help us to switch into this branch_1
+
+after this add , commit push 
+
+when pushing we should take care of origin as 
+git push origin branch_1
+
+we should give the branch name what we currently presents
+
+now go and refresh the page there we can see the file of branch_learn.txt in branch_1
+
+but in main branch this file is not visible
+
+if u want this file should be visible to the main branch also then follow below steps
+
+
+type
+git checkout main
+
+vs code see the folder that branch_learn file is not there
+
+when we type git checkout branch_1
+now that branch_learn file is visible
+
+how to send this branch_learn.txt to main?????
+
+switch into main branch
+
+type:
+git diff branch_1
+
+it tells this is the difference message will shown
+
+type:
+git merge branch_1
+
+this will connect main to branch_1
+
+git push origin main
+
+**** MAKE SURE  SWITCH INTO  MAIN THEN MERGE ****
