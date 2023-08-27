@@ -1,0 +1,32 @@
+
+Now Learn about pull request in git
+
+create one branch in terminal 
+
+git branch newBranchName
+
+check how many branches are there and currently am in which branch 
+
+this details can be taken by
+
+git branch -a
+
+switch into the newBranch
+
+
+now add commit push
+
+sometime we cant have access to merge to the main directly 
+
+in that case go to git there we can see pull request  click that
+
+in below choose the branch which branch to which branch u have to merge
+
+after that create pull request
+
+then those who have authroity that person get notified about this pull request
+
+then he or she can able to checkout the files then merge pull request 
+
+
+after this check to main now that newfile will be visible in main branch itself
