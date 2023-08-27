@@ -1,0 +1,10 @@
+
+if the branch is master mean change the branch name then try to push
+
+if fatal origin is error occured message came mean use this 
+
+git remote add origin paste that git url
+
+
+then use git push origin main
+
