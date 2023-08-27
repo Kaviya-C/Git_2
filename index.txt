@@ -1,0 +1,60 @@
+create one folder in local machine
+
+create one file inside that folder
+
+in that folder location change the path in terminal using cd command
+
+
+after coming to that location of created folder path 
+
+go to file explorer in system there check is git folder is there inside of ur created folder inside
+
+ .git folder is not there
+
+ bcoz now only we create that folder 
+we have to initiate the git inside that folder for that  we can use command as: 
+
+
+git init
+
+this will intiate the .git folder in our created folder path
+
+after that we can check the git status
+
+now it shows index.txt is untracked
+
+git add .   <------>  meant for adding all the files in the local machine into git platform
+
+git add index.txt ----> 
+git commit -m "NewFolderToGit"
+
+here we have to be careful  bcoz we are in new folder path
+we can't use directly origin main to push  
+git push origin main
+
+instead of using that command create one repository new copy that origin path url 
+
+type
+git remote add origin paste that url 
+
+now type git branch here we can see the branch name as master
+
+
+git push origin main 
+this comment won't work
+
+USE ANY ONE OF THE BELOW
+
+
+one:
+git push origin master
+
+two:
+change the branch name as
+git branch -M main
+
+
+after changing the branch 
+git push origin main
+
+now all the folder and files are pushed in the git platform
